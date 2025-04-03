@@ -1,0 +1,17 @@
+project_name: airline-analytics-platform
+
+data_paths:
+  raw: "/content/drive/MyDrive/airline-data-project/raw"
+  cleaned: "/content/drive/MyDrive/airline-data-project/cleaned"
+  merged: "/content/drive/MyDrive/airline-data-project/merged"
+  enriched: "/content/drive/MyDrive/airline-data-project/enriched"
+  external: "/content/drive/MyDrive/airline-data-project/external"
+
+validation:
+  expectations_dir: "validation/expectations/"
+  checkpoints_dir: "validation/checkpoints/"
+  data_docs_dir: "validation/data_docs/"
+
+model:
+  config_path: "config/model_config.json"
+  output_dir: "models/"
